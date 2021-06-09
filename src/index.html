@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Base template" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Base template</title>
+
+    <link rel="stylesheet" href="css/styles.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- header -->
+  <header class="header">
+    <div class="header__wrap">
+      <div class="header-logo">
+        <a href="#" class="header-logo__link">
+          <img class="header-logo__img" src="img/Логотип.jpg" srcset="img/Логотип2.jpg 2x" width="86" height="86" alt="Labrika" title="Labrika">
+        </a>
+
+        <button class="btn btn--burger">
+          <span class="btn--burger__line"></span>
+          <span class="btn--burger__line"></span>
+          <span class="btn--burger__line"></span>
+        </button>
+      </div>
+      
+      <nav class="header-nav">
+        <ul class="header-nav__list">
+          <li class="header-nav__item">
+            <a href="#" class="header-nav__link">О нас</a>
+          </li>
+          <li class="header-nav__item">
+            <a href="#" class="header-nav__link">Преимущества</a>
+          </li>
+          <li class="header-nav__item">
+            <a href="#" class="header-nav__link">Возможности</a>
+          </li>
+          <li class="header-nav__item">
+            <a href="#" class="header-nav__link">Рекомендации</a>
+          </li>
+        </ul>
+      </nav>
+      
+      <div class="header-registration-wrap">
+        <a class="btn btn--regist" href="#">Регистрация</a>
+        <a class="btn btn--get" href="#">Войти</a>
+      </div>
+
+    </div>
+  </header>
+  <!-- /header -->
+
+  <main class="main">
+
+    <!-- presentation -->
+    <section class="presentation">
+      <div class="presentation-wrap section-flex">
+        <div class="presentation__wrap-text">
+          <p class="presentation__text-bold section-text-bold">Dominate the search results with our easy to use, AI-led <span class="section-text-bold--green">Interactive Content Optimizer</span></p>
+          <p class="presentation__text-normal section-text-normal">40,000+ websites currently use our AI-led easy to use optimizer,  to make sure their content and meta snippets are top 10 worthy, all of the time.</p>
+          <div class="presentation__wrap-form">
+            <form class="presentation-form" action="" method="get">
+              <label class="presentation-form__search-label" for="presentation-field">Enter a Domain</label>
+              <input class="presentation-form__search-input" type="email" name="presentation" id="presentation-field" placeholder="Enter a Domain">
+              <button class="btn btn--presentation" type="submit">
+                <span>Optimize Your Content</span>
+              </button>
+            </form>
+          </div> 
+        </div>
+
+        <div class="presentation__wrap-img">
+          <img class="presentation__img" src="img/presentation.png" srcset="img/presentation2.png 2x" width="806" height="518" alt="presentation" title="presentation">
+        </div>               
+      </div>
+      
+    </section>
+    <!-- /presentation -->
+
+    <!-- optimization -->
+    <section class="optimization">
+      <div class="optimization-wrap">
+        <div class="optimization__wrap-text section-flex">
+          <p class="optimization__text-bold section-text-bold">Reverse engineer all of your competitor’s hard work, and take the guessing out of your <span class="section-text-bold--green">content creation and content optimization</span></p>
+          <p class="optimization__text-normal section-text-normal">Our highly sophisticated AI-led algorithm doesn’t guess like us mere mortals, it compares your content and snippets with the top 10 competitors for each keyword you wish to rank for, and provides you with ultra-actionable content optimization recommendations. </p>
+        </div>
+        <div class="optimization__wrap-img">
+          <span class="use use--optimization">Сonvenient use</span>
+          <span class="schedule schedule--optimization">Schedule</span>
+          <img class="optimization__img" src="img/optimization.png" srcset="img/optimization2.png 2x" width="1133" height="751" alt="optimization" title="optimization">
+        </div>
+      </div>
+    </section>
+    <!-- /optimization -->
+
+    <!-- email -->
+    <section class="email">
+      <div class="email-wrap">
+        <p class="email__text-bold section-text-bold">Labrika’s Interactive Content Optimizer makes creating and optimizing your content for <span class="section-text-bold--blue">top 10 rankings an absolute breeze</span></p>
+        <div class="email__wrap-form">
+          <form class="email-form" action="" method="get">
+            <label class="email-form__search-label" for="email-field">Enter a Domain</label>
+            <input class="email-form__search-input" type="email" name="email" id="email-field" placeholder="Enter a Domain">
+            <button class="btn btn--email" type="submit">
+              <span>Sign up for free</span>
+            </button>
+          </form>
+        </div> 
+      </div>
+    </section>
+    <!-- /email -->
+
+    <!-- make  -->
+    <section class="make">
+      <div class="make-wrap section-flex">                
+        <div class="make__wrap-text">
+          <p class="make__text-bold section-text-bold"><span class="section-text-bold--green">Make sure your</span> content contains the right keywords, the right number of times, in the right places</p>
+          <p class="make__text-normal section-text-normal">Our AI-led algorithm checks your competitor’s content and then
+            cross-compares it against your own, checking for the most crucial content ranking elements:</p>
+          <ul class="make__text-list">
+            <li class="make__text-list-item">Missing keywords crucial for ranking in the top 10</li>
+            <li class="make__text-list-item">Keyword Density</li>
+            <li class="make__text-list-item">LSI (latent semantic indexing)</li>
+            <li class="make__text-list-item">TF-IDF (term frequency–inverse document frequency)</li>
+            <li class="make__text-list-item">H1 title optimization </li>
+          </ul>          
+        </div>
+
+        <div class="make__wrap-img">
+          <span class="schedule schedule--make">Schedule</span>
+          <img class="make__img" src="img/make.png" srcset="img/make2.png 2x" width="650" height="629" alt="make" title="make">
+        </div> 
+      </div>
+    </section>
+    <!-- /make  -->
+
+    <!-- increase   -->
+    <section class="increase">
+      <div class="increase-wrap section-flex">
+        <div class="increase__wrap-img">
+          <span class="use use--increase">Сonvenient use</span>
+          <img class="increase__img" src="img/increase.png" srcset="img/increase2.png 2x" width="624" height="420" alt="increase" title="increase">
+        </div> 
+
+        <div class="increase__wrap-text">
+          <p class="increase__text-bold section-text-bold"><span class="section-text-bold--green">Increase your CTR by optimizing your META</span> snippets based on snippets currently dominating the top 10</p>
+          <p class="increase__text-normal section-text-normal">CTR is an important metric when climbing the SERPs, especially once you hit the top 10 rankings.</p>          
+          <p class="increase__text-normal section-text-normal">Labrika provides real-time snippet updates for all of your competitors, so you can easily reverse engineer any changes they’ve made to their snippets and update yours accordingly.</p>
+          <p class="increase__text-normal section-text-normal">All snippet recommendations are provided within the Interactive Content Optimizer main page, so you can optimize your content and meta titles/descriptions at the same time.</p>
+        </div>        
+      </div>
+    </section>
+    <!-- /increase   -->
+
+    <!-- take   -->
+    <section class="take">
+      <div class="take-wrap section-flex">
+        <div class="take__wrap-text">
+          <p class="take__text-bold section-text-bold"><span class="section-text-bold--green">Take the headache</span> out of content creation</p>
+          <p class="take__text-normal section-text-normal">Labrika’s Interactive Content Optimizer doesn’t just optimize content you currently have, it also provides ultra-actionable content guidelines and competitor examples, so that you can craft the perfect new, high ranking piece of content for your new keywords.
+          </p>
+            <p class="take__text-normal section-text-normal"><b>All you have to do is:</b></p>
+          <ul class="take__text-list">
+            <li class="take__text-list-item take__text-list-item--first">Enter the keywords you wish your new page to rank for</li>
+            <li class="take__text-list-item take__text-list-item--second">Enter the page URL that this new page will have</li>            
+          </ul>
+          <p class="take__text-normal section-text-normal">Labrika will then check the top 10 competitors for your chosen keywords and provide you with a detailed and easily actionable content brief that specifies  what keywords are needed, their instances, and what topics/LSI keywords are expected to be present for you to be able to rank in the top 10.</p>
+        </div>
+
+        <div class="take__wrap-img">
+          <span class="use use--take">Сonvenient use</span>
+          <span class="schedule schedule--take">Schedule</span>
+          <img class="take__img" src="img/take.png" srcset="img/take2.png 2x" width="679" height="456" alt="take" title="take">
+        </div> 
+      </div>
+    </section>
+    <!-- /take   -->
+
+    <!-- create  -->
+    <section class="create">
+      <div class="create-wrap section-flex">
+        <div class="create__wrap-img">
+          <span class="schedule schedule--create">Schedule</span>
+          <img class="create__img" src="img/create.png" srcset="img/create2.png 2x" width="631" height="579" alt="create" title="create">
+        </div> 
+
+        <div class="create__wrap-text">
+          <p class="create__text-bold section-text-bold"><span class="section-text-bold--green">Create scalable content creation and optimization processes</span> with our easy to share content briefs</p>
+          <p class="create__text-normal section-text-normal">All of our Interactive Content Optimizer recommendations are  easily shareable with an easy to access and easy to share content brief link.</p>          
+          <p class="create__text-normal section-text-normal">This is perfect for businesses that have dedicated in-house content creators, 
+            outsourced copywriters or anyone apart from yourself that creates the content.</p>
+          <p class="create__text-normal section-text-normal">All shared content briefs include a dedicated history tab (that shows all content changes) 
+            and also include all of the needed keywords, keyword density, LSI, TF-IDF and meta-data
+             that is needed for your content to rank well in the top 10.</p>
+        </div>        
+      </div>
+    </section>
+    <!-- /create    -->
+
+    <!-- checker    -->
+    <section class="checker">
+      <div class="checker-wrap section-flex">
+        <div class="checker__wrap-text">
+          <p class="checker__text-bold section-text-bold"><span class="section-text-bold--green">In-built</span> Plagiarism Checker</p>
+          <p class="checker__text-normal section-text-normal">Labrika’s Interactive Content Optimizer comes with a very handy plagiarism checker that checks your content HTML against millions of other pages on the web, to make sure your content isn’t/won’t trigger any plagiarized/duplicate content penalties from Google.</p>          
+          <p class="checker__text-normal section-text-normal">This is especially handy for businesses that outsource content and want to double-check that the content they have paid for will benefit their business, rather than harming it.</p>
+          <p class="checker__text-normal section-text-normal">The in-built  plagiarism checker will provide a percentage score of matching text between your page and the other page/s found on the web, so you easily see how likely it is that content has been copied.</p>
+        </div>
+        
+        <div class="checker__wrap-img">
+          <span class="use use--checker">Сonvenient use</span>
+          <img class="checker__img" src="img/checker.png" srcset="img/checker2.png 2x" width="656" height="441" alt="checker" title="checker">
+        </div> 
+      </div>
+    </section>
+    <!-- /checker   -->
+
+    <!-- additional    -->
+    <section class="additional">
+      <div class="additional-wrap section-flex--mb">
+        <div class="additional__wrap-text">
+          <p class="additional__text-bold section-text-bold"><span class="section-text-bold--blue">Additional Interactive</span> Content Optimizer Features:</p>
+          <a class="btn btn--additional" href="#">Sign up for free</a>
+        </div>
+        
+        <div class="additional__wrap-list">
+          <ul class="additional__text-list">
+            <li class="additional__text-list-item">Ability to define query intent type for a page and received customized recommendations (i.e. commercial or informational)</li>
+            <li class="additional__text-list-item">Ability to check what essential landing page elements are found on competitors pages that should also be included on yours (i.e. shopping carts, certain types of media)</li>  
+            <li class="additional__text-list-item">Anchor text optimization so that your content will be seen as more relevant for specific keywords (based on what the top 10 implements)</li>
+            <li class="additional__text-list-item">On-the-fly fresh content optimization recommendations that change based on current search engine algorithm updates and competitor content/snippet updates.</li>
+            <li class="additional__text-list-item">In-built adult content, swear word, duplicate content, and coding error checkers to make sure your content is not held back by any search engine penalties.</li>          
+          </ul>
+        </div> 
+      </div>
+    </section>
+    <!-- /additional    -->
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-wrap section-flex--mb">
+      <p class="footer__text footer__text--left">ООО «Лабрика» 2015-2020 «LABRIKA» является зарегистрированной торговой маркой Копирование любых материалов, размещенных на сайте labrika.ru, разрешено только при условии размещении активной ссылки на источник статьи и без каких-либо изменений в тексте</p>
+      <p class="footer__text footer__text--right"><a class="footer__text-link" href="#">Политика конфиденциальности</a>
+        <br><a class="footer__text-link" href="">Соглашения об обработке персональных данных</a>
+      </p>
+    </div>
+  </footer>
+    
+
+  <script src="js/scripts.min.js"></script>
+</body>
+</html>
